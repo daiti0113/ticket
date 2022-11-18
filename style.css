@@ -3,7 +3,7 @@
   src: url(aoyagireisyosimo.otf);
 }
 body {
-  background-color: #FFB563;
+  background-color: #FFFFFF;
   font-family: "Montserrat", "Helvetica Neue", "Open Sans", "Arial";
   font-weight: 300;
 }
@@ -55,7 +55,7 @@ body {
 }
 .ticket-body:before,
 .ticket-body:after {
-  background-color: #FFB563;
+  background-color: #FFFFFF;
   border-radius: 100%;
   content: "";
   height: 15px;
