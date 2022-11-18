@@ -1,0 +1,22 @@
+{
+  "name": "ticket",
+  "version": "1.0.0",
+  "description": "css ticket design",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "lessc style.less > style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daiti0113/ticket.git"
+  },
+  "author": "daiti0113",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daiti0113/ticket/issues"
+  },
+  "homepage": "https://github.com/daiti0113/ticket#readme",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}
