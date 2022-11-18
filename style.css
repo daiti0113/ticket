@@ -40,7 +40,7 @@ body {
 }
 .ticket-body {
   border-bottom: 1px dashed white;
-  padding: 40px 45px 60px 45px;
+  padding: 20px 45px;
   position: relative;
 }
 .ticket-body p {
@@ -48,12 +48,11 @@ body {
   font-size: 14px;
 }
 .ticket-body .flight-info {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .ticket-body .flight-date {
   font-size: 12px;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .ticket-body:before,
 .ticket-body:after {
