@@ -8,30 +8,17 @@ body {
   font-weight: 300;
 }
 .container-fluid {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%) translateX(-50%);
   width: 100%;
+  text-align: center;
 }
 .ticket {
   border-radius: 4px;
   display: inline-block;
-  max-width: 320px;
+  max-width: 640px;
   text-align: left;
-  text-transform: uppercase;
   width: 100%;
-}
-.ticket.dark {
   background-color: #161616;
   color: white;
-}
-.ticket.light {
-  background-color: white;
-  color: #161616;
-}
-.ticket.light .ticket-body {
-  border-color: #161616;
 }
 .ticket-head {
   background-position: center;
@@ -42,20 +29,13 @@ body {
   position: relative;
   font-family: "aoyagireisyosimo";
 }
-.ticket-head .from-to {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  font-size: 24px;
+.ticket-head .title {
+  text-align: center;
+  font-size: 32px;
   font-weight: 600;
   width: 100%;
   z-index: 2;
-}
-.ticket-head .icon {
-  display: inline-block;
-  margin: 0 40px;
-  transform: rotate(135deg) translate(25%, 25%);
+  letter-spacing: 0.5em;
 }
 .ticket-body {
   border-bottom: 1px dashed white;
@@ -182,6 +162,9 @@ body {
   top: 0;
   width: 100%;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 p,
 h1,

@@ -17,31 +17,18 @@ body {
 }
 
 .container-fluid {
-    .center;
     width: 100%;
+    text-align: center;
 }
 
 .ticket {
     border-radius: 4px;
     display: inline-block;
-    max-width: 320px;
+    max-width: 640px;
     text-align: left;
-    text-transform: uppercase;
     width: 100%;
-
-    &.dark {
-        background-color: @ticket-body;
-        color: white;
-    }
-
-    &.light {
-        background-color: white;
-        color: @ticket-body;
-
-        .ticket-body {
-            border-color: @ticket-body;
-        }
-    }
+    background-color: @ticket-body;
+    color: white;
 }
 
 .ticket-head {
@@ -53,18 +40,13 @@ body {
     position: relative;
     font-family: "aoyagireisyosimo";
 
-    .from-to {
-        .center;
-        font-size: 24px;
+    .title {
+        text-align: center;
+        font-size: 32px;
         font-weight: 600;
         width: 100%;
         z-index: 2;
-    }
-
-    .icon {
-        display: inline-block;
-        margin: 0 40px;
-        transform: rotate(135deg) translate(25%, 25%);
+        letter-spacing: 0.5em;
     }
 }
 
@@ -199,6 +181,9 @@ body {
     top: 0;
     width: 100%;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // typography reset
