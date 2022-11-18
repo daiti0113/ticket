@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "aoyagireisyosimo";
+  src: url(aoyagireisyosimo.otf);
+}
 body {
   background-color: #FFB563;
   font-family: "Montserrat", "Helvetica Neue", "Open Sans", "Arial";
@@ -36,6 +40,7 @@ body {
   color: white;
   height: 140px;
   position: relative;
+  font-family: "aoyagireisyosimo";
 }
 .ticket-head .from-to {
   position: absolute;
