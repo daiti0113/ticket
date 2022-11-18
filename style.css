@@ -6,6 +6,7 @@ body {
   background-color: #FFFFFF;
   font-family: "Montserrat", "Helvetica Neue", "Open Sans", "Arial";
   font-weight: 300;
+  margin: 16px 8px;
 }
 .container-fluid {
   width: 100%;
@@ -39,19 +40,20 @@ body {
 }
 .ticket-body {
   border-bottom: 1px dashed white;
-  padding: 15px 45px;
+  padding: 40px 45px 60px 45px;
   position: relative;
 }
 .ticket-body p {
   color: #A2A2A2;
-  font-size: 12px;
+  font-size: 14px;
 }
 .ticket-body .flight-info {
-  margin-top: 15px;
+  margin-top: 30px;
 }
 .ticket-body .flight-date {
   font-size: 12px;
-  margin-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .ticket-body:before,
 .ticket-body:after {
